@@ -1,6 +1,5 @@
 body {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
   background-color: rgb(182, 182, 182);
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -18,9 +17,25 @@ li {
   text-align: center;
   font-size: 18px;
   padding: 15px 30px;
+  color: gray;
 }
 
 li a {
   text-decoration: none;
   color: black;
+}
+
+.welcome{
+  display: inline-block;
+  padding: 10% 10%;
+}
+
+h1 {
+  font-size: 60px;
+  margin-bottom: 10%;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: normal;
 }
