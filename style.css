@@ -24,6 +24,7 @@ li a {
   text-decoration: none;
   color: rgb(32,42,68);
   font-weight: bold;
+  cursor: pointer;
 }
 
 #home {
@@ -89,6 +90,8 @@ li a {
   color: rgb(32,42,68);
   font-size: 25px;
   border-radius: 50px;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 #backgroundButton {
@@ -125,4 +128,23 @@ li a {
   background-color: white;
   grid-column: 2 / 3;
   grid-row: 1 / 5;
+}
+
+#information h2 {
+  font-size: 28px;
+  text-align: center;
+  font-weight: normal;
+}
+
+#information p {
+  font-size: 20px;
+  margin: 20px 30px;
+}
+
+.info {
+  display: none;
+}
+
+.info.activeInfo {
+  display: block;
 }
