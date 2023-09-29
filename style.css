@@ -13,7 +13,7 @@ header ul {
   background-color: white;
 }
 
-li {
+header ul li {
   display: inline-block;
   text-align: center;
   font-size: 18px;
@@ -28,18 +28,19 @@ li a {
 
 .home {
   display: flex;
+  margin-bottom: 5%;
 }
 
 .welcome {
   padding: 10% 10%;
 }
 
-h1 {
+.welcome h1 {
   font-size: 60px;
   margin-bottom: 10%;
 }
 
-h2 {
+.welcome h2 {
   font-size: 40px;
   font-weight: normal;
   margin-bottom: 20%;
@@ -49,11 +50,75 @@ h2 {
   font-size: 18px;
 }
 
-img {
+.home img {
   width: 20%;
   height: 40%;
   margin: 7% 10%;
   border: 1px solid white;
   border-radius: 8px;
   padding: 5px;
+}
+
+.aboutMeTitle {
+  margin: 0;
+  text-align: center;
+  font-size: 60px;
+}
+
+.aboutMe {
+  padding: 10% 10%;
+
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.backgroundButton {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  padding: 0.75em 3em;
+  background-color: white;
+  color: rgb(32,42,68);
+  font-size: 30px;
+  border-radius: 50px;
+}
+
+.skillsButton {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  padding: 0.75em 3em;
+  background-color: white;
+  color: rgb(32,42,68);
+  font-size: 30px;
+  border-radius: 50px;
+}
+
+.experienceButton {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  padding: 0.75em 3em;
+  background-color: white;
+  color: rgb(32,42,68);
+  font-size: 30px;
+  border-radius: 50px;
+}
+
+.educationButton {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  padding: 0.75em 3em;
+  background-color: white;
+  color: rgb(32,42,68);
+  font-size: 30px;
+  border-radius: 50px;
 }
