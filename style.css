@@ -26,31 +26,31 @@ li a {
   font-weight: bold;
 }
 
-.home {
+#home {
   display: flex;
   margin-bottom: 5%;
 }
 
-.welcome {
+#welcome {
   padding: 10% 10%;
 }
 
-.welcome h1 {
+#welcome h1 {
   font-size: 60px;
   margin-bottom: 10%;
 }
 
-.welcome h2 {
+#welcome h2 {
   font-size: 40px;
   font-weight: normal;
   margin-bottom: 20%;
 }
 
-.welcome p {
+#welcome p {
   font-size: 18px;
 }
 
-.home img {
+#home img {
   width: 20%;
   height: 40%;
   margin: 7% 10%;
@@ -59,66 +59,70 @@ li a {
   padding: 5px;
 }
 
-.aboutMeTitle {
+#aboutMeTitle {
   margin: 0;
   text-align: center;
   font-size: 60px;
 }
 
-.aboutMe {
-  padding: 10% 10%;
+#aboutMe {
+  padding: 7% 10%;
 
   display: grid;
 
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(4, 1fr);
-  gap: 10px;
+  grid-template-rows: 550px;
+  grid-column-gap: 20px;
 }
 
-.backgroundButton {
+#buttonsDiv {
+  display: grid;
+  padding: 80px 10px;
+  box-sizing: border-box;
+  grid-row-gap: 50px;
+}
+
+.buttons {
+  padding: 15px 0px;
+  margin: 0px 110px;
+  background-color: white;
+  color: rgb(32,42,68);
+  font-size: 25px;
+  border-radius: 50px;
+}
+
+#backgroundButton {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 1;
   grid-row-end: 2;
-  padding: 0.75em 3em;
-  background-color: white;
-  color: rgb(32,42,68);
-  font-size: 30px;
-  border-radius: 50px;
 }
 
-.skillsButton {
+#skillsButton {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 2;
   grid-row-end: 3;
-  padding: 0.75em 3em;
-  background-color: white;
-  color: rgb(32,42,68);
-  font-size: 30px;
-  border-radius: 50px;
 }
 
-.experienceButton {
+#experienceButton {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 3;
   grid-row-end: 4;
-  padding: 0.75em 3em;
-  background-color: white;
-  color: rgb(32,42,68);
-  font-size: 30px;
-  border-radius: 50px;
 }
 
-.educationButton {
+#educationButton {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row-start: 4;
   grid-row-end: 5;
-  padding: 0.75em 3em;
-  background-color: white;
+}
+
+#information {
+  border-radius: 20px;
   color: rgb(32,42,68);
-  font-size: 30px;
-  border-radius: 50px;
+  background-color: white;
+  grid-column: 2 / 3;
+  grid-row: 1 / 5;
 }
