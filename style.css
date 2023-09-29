@@ -144,7 +144,3 @@ li a {
 .info {
   display: none;
 }
-
-.info.activeInfo {
-  display: block;
-}
