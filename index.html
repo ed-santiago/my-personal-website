@@ -2,23 +2,23 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="./style.css"/>
-    <title>My Personal Website</title>
+    <title>Edmond's Personal Website</title>
   </head>
   <body>
 
-    <header>
+    <header class="header">
+      <h1>Edmond's Portfolio</h1>
       <ul>
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">ABOUT ME</a></li>
-        <li><a href="#">PROJECTS</a></li>
-        <li><a href="#">GET IN TOUCH</a></li>
+        <li><a href="#header">HOME</a></li>
+        <li><a href="#aboutMeTitle">ABOUT ME</a></li>
+        <li><a href="#projectsTitle">PROJECTS</a></li>
       </ul>
     </header>
 
     <div id="home">
       <div id="welcome">
-        <h1>Hi, I'm Edmond</h1>
-        <h2>An aspiring Software Engineer with a<br>passion to build websites and<br>applications that will be successful.</h2>
+        <h1>Hi, I'm <span style="color:hsl(176, 100%, 53%)">Edmond</span> 👋</h1>
+        <h2>An aspiring Software Engineer with a<br>passion to build websites and<br>applications that will be successful. Based in Australia. <i class="flag flag-australia"></i>📍 </h2>
         <p>Lorem Ipsum is simply dummy text of the printing</p>
       </div>
       <img src="images/cat.jpg" alt="cute cat">
@@ -35,7 +35,7 @@
       </div>
 
       <div id="information">
-        <div id="background" class="info" class="w3-animate-opacity">
+        <div id="background" class="w3-animate-opacity">
           <h2>Background</h2>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti amet quae asperiores nostrum qui sunt nisi dolorem ipsa esse quod, 
             molestias ipsam odit sint, non cumque blanditiis fugit delectus earum tempore, labore modi molestiae dolores possimus. Adipisci, veritatis soluta est 
@@ -90,11 +90,13 @@
 
     <footer>
       <p>Designed and developed by Edmond Santiago 2023</p>
-      <ion-icon name="mail-sharp"></ion-icon>
-      <ion-icon name="logo-facebook"></ion-icon>
-      <ion-icon name="logo-instagram"></ion-icon>
-      <ion-icon name="logo-github"></ion-icon>
-      <ion-icon name="logo-linkedin"></ion-icon>
+      <div id="socials">
+        <ion-icon name="mail-sharp"></ion-icon>
+        <ion-icon name="logo-facebook"></ion-icon>
+        <ion-icon name="logo-instagram"></ion-icon>
+        <ion-icon name="logo-github"></ion-icon>
+        <ion-icon name="logo-linkedin"></ion-icon>
+        </div>
     </footer>
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>

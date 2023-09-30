@@ -7,26 +7,41 @@ body {
   flex-direction: column;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+header h1 {
+  margin: 0px;
+  padding-left: 40px;
+  color: rgb(32,42,68);
+  font-size: 20px;
+}
+
 header ul {
   margin: 0;
   padding: 0;
   list-style: none;
-  text-align: center;
-  background-color: white;
 }
 
 header ul li {
   display: inline-block;
-  text-align: center;
+  padding: 12px 30px;
   font-size: 18px;
-  padding: 15px 30px;
+  cursor: pointer;
+}
+
+header ul li:hover {
+  background-color: hsl(176, 100%, 53%);
 }
 
 li a {
   text-decoration: none;
   color: rgb(32,42,68);
   font-weight: bold;
-  cursor: pointer;
 }
 
 #home {
@@ -240,12 +255,24 @@ li a {
 
 footer {
   display: flex;
-  color: rgb(32,42,68);
-  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
   font-weight: bold;
-  padding: 16px 20px;
+  padding: 30px 50px 40px 50px;
 }
 
 footer p {
   margin: 0px;
+}
+
+#socials {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+  width: 300px;
+}
+
+ion-icon {
+  font-size: 30px;
 }
