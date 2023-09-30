@@ -170,17 +170,23 @@ li a {
   background-color: white;
   grid-column: 2 / 3;
   grid-row: 1 / 5;
+  padding: 0 20px;
 }
 
 #information h2 {
-  font-size: 28px;
+  font-size: 32px;
   text-align: center;
 }
 
 #information p {
   font-size: 20px;
-  margin: 50px 40px;
+  margin: 30px 40px;
   text-align: justify;
+}
+
+#information ul {
+  text-align: justify;
+  font-size: 18px;
 }
 
 .info {
