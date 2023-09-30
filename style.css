@@ -74,6 +74,7 @@ li a {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 550px;
   grid-column-gap: 20px;
+  margin-bottom: 5%;
 }
 
 #buttonsDiv {
@@ -143,4 +144,43 @@ li a {
 
 .info {
   display: none;
+}
+
+#projectsTitle {
+  margin: 0;
+  text-align: center;
+  font-size: 60px;
+}
+
+#projects {
+  padding: 5% 20%;
+
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 50px;
+  grid-row-gap: 100px;
+  margin-bottom: 5%;
+}
+
+#proj1div {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  overflow:hidden;
+  border-radius: 20px;
+}
+
+.project1img {
+  width:100%;
+  height:100%;
+  object-fit: cover;
+}
+
+#project1info {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  border-radius: 20px;
+  color: rgb(32,42,68);
+  background-color: white;
 }
