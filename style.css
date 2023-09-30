@@ -36,6 +36,7 @@ header ul li {
 
 header ul li:hover {
   background-color: hsl(176, 100%, 53%);
+  box-shadow: 0 12px 16px 0 rgb(88, 88, 88), 0 17px 50px 0 grey;
 }
 
 li a {
@@ -128,6 +129,11 @@ li a {
   border-radius: 50px;
   font-weight: bold;
   cursor: pointer;
+}
+
+.buttons:hover {
+  background-color: hsl(176, 100%, 53%);
+  box-shadow: 0 12px 16px 0 rgb(88, 88, 88), 0 17px 50px 0 grey;
 }
 
 #backgroundButton {
@@ -235,6 +241,16 @@ li a {
   text-align:justify
 }
 
+#project1socials {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 150px;
+}
+
+#project1socials a {
+  color: rgb(32,42,68);
+}
+
 #project2imgdiv {
   grid-column: 1/2;
   grid-row: 2/3;
@@ -268,6 +284,16 @@ li a {
 #project2info p {
   padding: 20px 60px;
   text-align:justify
+}
+
+#project2socials {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 150px;
+}
+
+#project2socials a {
+  color: rgb(32,42,68);
 }
 
 
