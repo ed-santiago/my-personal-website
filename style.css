@@ -234,3 +234,18 @@ li a {
   padding: 20px 60px;
   text-align:justify
 }
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: rgb(32,42,68);
+  background-color: white;
+}
+
+footer p {
+  margin: 16px 10px;
+  padding-left: 10px;
+  font-weight: bold;
+}
